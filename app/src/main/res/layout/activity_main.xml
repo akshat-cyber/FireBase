@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/choose_file_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="100sp"
+        android:text="Choose file" />
+<TextView
+    android:id="@+id/file_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:layout_marginLeft="100dp"
+    android:layout_marginRight="100dp"
+    android:hint="Enter file name"
+    android:textColorHint="@color/cardview_light_background"
+
+    />
+<ImageView
+    android:id="@+id/imageVie"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/choose_file_button"
+    android:layout_marginTop="50dp"
+    android:layout_marginBottom="300dp"
+     />
+    <ProgressBar
+        android:id="@+id/progress_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_marginTop="450dp"
+        />
+
+
+    <Button
+        android:id="@+id/upload_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="UPLOAD"
+        android:layout_marginTop="500dp"
+        />
+    <Button
+        android:id="@+id/show_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:text="SHOW UPLOAD"
+        android:layout_marginTop="500dp"
+        />
+
+</RelativeLayout>
